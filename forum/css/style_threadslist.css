@@ -1,0 +1,176 @@
+/* threads list css */
+.bootn {
+    font-size: 14px;
+    background-color: purple;
+    border: 1px solid black;
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 10px;
+    margin: 50px 250px;
+    min-height: 100%;
+}
+.media p{
+    font-size: 13px;
+}
+
+.media {
+    padding: 10px;
+    background-color: rgb(190, 187, 187);
+}
+
+.arrange{
+    color: black;
+    text-decoration: none;
+}
+
+.arrange:hover{
+    text-decoration: underline;
+}
+.bootn:hover{
+    text-decoration: underline;
+}
+.height{
+    min-height: 97.3vh;
+    width: 100%;
+    display: inline-block;
+}
+.jumr{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(190, 187, 187);
+}
+
+.media-body p{
+    
+    font-size: 15px;
+}
+input, textarea{
+    padding: 5px;
+}
+
+/* if not login css */
+.result p{
+    font-size: 35px;
+    margin-bottom: 5px;
+
+}
+
+.result p1{
+    padding: 3px;
+
+}
+
+/* form css */
+
+ 
+#myform{
+    margin-bottom: 75px;
+}
+
+#myform h2{
+    margin-bottom: 10px;
+}
+label {
+    font-size: 20px;
+}
+
+small {
+    font-size: 10px;
+    /* margin-left: 135px; */
+    color: red;
+}
+
+.buttom{
+    background: purple;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    margin: 7px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.buttom:hover {
+    background: white;
+    color: black;
+}
+
+
+/* thread form css */
+#mybutton{
+    width: 150px;
+}
+
+/* edit and delete oporation */
+.upAndDelt{
+    width: 50px;
+    margin-left: 8px;
+    padding: 2px;
+    background-color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+.upAndDelt a{
+    font-size: 12px;
+    color:white;
+    text-decoration: none;
+}
+.upAndDelt a:hover{
+    text-decoration: underline;
+}
+
+/* for edit css */
+#edit{
+    padding: 125px 15px ;
+}
+
+
+
+/* for responisve website */
+@media only screen and (min-width: 280px) and (max-width: 1023px){
+
+.bootn {
+    font-size: 15px;
+}
+
+.container {
+    margin: 50px 0px;
+}
+.container p{
+    font-size: 20px;
+}
+.result, label {
+    font-size: 30px;
+
+}
+
+small {
+    font-size: 13px;
+}
+
+.buttom{
+    font-size: 20px;
+}
+textarea {
+    width: 341px;
+    height: 20px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    .bootn, small,  .buttom{
+        font-size: 20px;
+    }
+    .result, label{
+        font-size: 45px;
+    }
+
+    .container p, .media-body h3{
+        font-size: 35px;
+    }
+}

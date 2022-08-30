@@ -1,0 +1,33 @@
+.container{
+    min-height: 97.3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes{
+    margin: 2rem;
+    padding: 1rem;
+    background-color: rgb(190, 187, 187);
+}
+
+.a-primary{
+    text-decoration: none ;
+    color: black;
+    
+    
+}
+.a-primary:hover{
+    text-decoration: underline ;
+    
+}
+.p-primary{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px){
+    .boxes{
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,107 @@
+#myform{
+    min-height: 93.4vh;
+    display: flex;
+    /* margin: 5% 5%; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.form1{
+    /* border: 2px solid forestgreen; */
+    background-color: #d3d4d4;
+    border-radius: 30px;
+    padding: 28px;
+    box-shadow: 3px 7px #888888;
+}
+
+
+label {
+    font-size: 20px;
+
+}
+input{
+    padding: 5px;
+}
+small {
+    font-size: 10px;   
+    color: red;
+}
+
+.buttom{
+    background: darkgreen;
+    cursor: pointer;
+    height: 30px;
+    color: white;
+    width: 100%;
+}
+
+.buttom:hover {
+    background: blue;
+}
+p b{
+    font-size: 30px;
+
+}
+
+/* for signup and login form only */
+.my_para1{
+    margin: 50px;
+    font-size: 23px;
+}
+
+.users{
+    font-size: 13px;
+    color: darkgreen;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.users:hover{
+    text-decoration: underline;
+}
+
+/* for contact form only */
+.my_para{
+    margin: 50px;
+    font-size: 20px;
+    width: 620px;
+}
+.contact p a{
+    color: black;
+    text-decoration: none;
+}
+.contact p a:hover{
+    color: rgb(112, 6, 112);
+}
+
+/* for responsive */
+@media only screen and (max-width: 600px){
+    
+    .form1{
+        margin-bottom: 50px;
+    }
+
+    .my_para1{
+        margin: 47px 15px -100px 15px;
+    }
+
+    .my_para{
+        margin:120px 5px 30px 5px;
+        width: 80%;
+    }
+    #myform{
+        min-height: 96.4vh;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .my_para{
+        font-size: 35px;
+    }
+    #myform{
+        min-height: 97.4vh;
+    }
+    .my_para b{
+        font-size: 40px;
+    }
+}

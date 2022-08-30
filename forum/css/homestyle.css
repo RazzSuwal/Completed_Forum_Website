@@ -1,0 +1,247 @@
+
+.heading {
+    text-align: center;
+    margin-top:150px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+#container::before{
+    content: "";
+    background: url("../image/coding1.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 64%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.95;
+}
+.s_description{
+    text-align: center;
+    margin: 158px 0px 90px 0px;
+    color: purple;
+    font-size: 35px; 
+}
+
+.s_description h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid purple; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(60, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: purple }
+  }
+
+.s_description h2{
+    display: none;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px 30px 50px 50px;
+}
+
+/* inside php loop css */
+.bootn{
+    font-size: 14px;
+    background-color: purple;
+    padding: 2px;
+    border: 1px solid black;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.bootn:hover{
+    text-decoration: underline;
+}
+.ahover{
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.ahover:hover{
+    text-decoration: underline;
+
+}
+
+.card{
+    margin:45px;
+    background-color: rgb(179, 176, 142);
+    border: 2px solid rgb(179, 176, 142);
+    text-align: center;
+    width: 16%;
+    padding: 0px;
+}
+#cardimg{
+    width: 200px;
+    height: 180px;
+}
+p{
+    padding: 4px;
+    background-color: cream;
+}
+section{
+    padding: 30px;
+    
+}
+.ACheading{
+    text-decoration: none;
+    margin-left: 15px;
+}
+.ACheading:hover{
+    text-decoration: underline;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+#seemore{
+    margin-left: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    background-color: blue;
+    border: 1px solid black;
+}
+#seemore:hover{
+    background-color: green;
+}
+
+#imagepart{
+    margin: 0px 20px;
+}
+
+
+.aboutpara{
+    font-size: larger;
+    padding-left: 16px;
+}
+#horibar{
+  
+    background-color: black;
+}
+
+
+
+.bar{
+    height: 290px;
+    width: 50px;
+    margin: 5px 0px 5px 5px;
+    border: 2px solid rgb(109, 109, 109);
+}
+
+@media only screen and (min-width: 280px) and (max-width: 1023px){
+    #row{
+        margin: 10px;
+        padding: 5px;
+    }
+    .card{
+        width: 100%;
+    }
+    p{
+        font-size: 19px;
+    }
+    h2 a, .heading{
+        font-size: 25px;
+    }
+    .bootn {
+        font-size: 16px;
+
+    }
+     .s_description{
+         font-size: 35px;
+         margin-bottom: 150px
+    }
+    .s_description h1{
+        display: none;
+    }
+    .s_description h2{
+        display: block;
+    }
+    
+    
+    #imagepart{
+        display: none;
+    }
+    .heading {
+        margin-top:16%;
+    }
+}
+@media only screen and (min-width: 390px) and (max-width: 820px){
+    .s_description{
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    h2 a, .heading{
+        font-size: 48px;
+    }
+    .s_description{
+        font-size: 50px;
+        margin-top: 250px;
+
+    }
+    p, .card-body h2 a, section{
+        font-size: 35px;
+    }
+    .bootn {
+        font-size: 25px;
+    }
+    
+
+    .heading{
+        margin-top: 300px;
+    }
+
+
+}
+@media only screen and (min-width: 667px) and (max-width: 767px){
+    .s_description h2 {
+        font-size: 50px;
+        /* margin: 0; */
+    }
+
+    #container::before{
+        height: 100%;
+    }
+    .heading{
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 912px) and (max-width: 1023px){
+    .s_description{
+        font-size: 85px;
+    }
+}
+
+
+
+
+

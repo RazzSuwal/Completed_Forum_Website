@@ -1,0 +1,30 @@
+.intro_desc{
+    padding: 8vh;
+}
+.intro_desc p{
+    font-size: 20px;
+}
+b{
+    color: rgb(48, 2, 48);
+}
+.forcontact, #admin p a{
+    color: black;
+    text-decoration: none;
+}
+
+#admin p a:hover{
+    color: rgb(112, 6, 112);
+}
+
+.forcontact:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .intro_desc p, b{
+        font-size: 35px;
+    }
+    .intro_desc h1{
+        font-size: 38px;
+    }
+}
